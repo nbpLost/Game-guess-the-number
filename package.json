@@ -1,0 +1,19 @@
+{
+  "name": "game-guess-the-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbpLost/Game-guess-the-number.git"
+  },
+  "author": "nbpLost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbpLost/Game-guess-the-number/issues"
+  },
+  "homepage": "https://github.com/nbpLost/Game-guess-the-number#readme"
+}

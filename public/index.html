@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Guess number</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess number</h1>
+      <p class="between">(Number between 1 and 20)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <p class="message">Start guessing...</p>
+        <label>
+          <input type="number" class="guess">
+        </label>
+        <button class="btn check">Verification!</button>
+      </section>
+      <section class="right">
+        <p class="label-score">
+          💯 Number of attempts: <span class="score">20</span>
+        </p>
+        <p class="label-highscore">
+          🥇 Record: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="src/game.js" defer></script>
+  </body>
+</html>
